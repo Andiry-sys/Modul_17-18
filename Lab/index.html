@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="header">Memory Game</div>
+
+    <div class="form">
+      <input
+        id="username"
+        type="text"
+        name="class-name"
+        placeholder="Введите имя игрока"
+      />
+      <button id="new-game" onclick="generateFirstGame()">Поехали!</button
+      ><br />
+    </div>
+
+    <div id="game"></div>
+
+    <div class="card-container"></div>
+
+    <div id="score"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>

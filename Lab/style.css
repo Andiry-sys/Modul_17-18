@@ -1,0 +1,15 @@
+table {
+  margin: 10px 0;
+  width: 605px;
+  height: 605px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+td {
+  border: 1px solid black;
+}
+
+.closed {
+  background-image: url(http://placehold.it/150x150) !important;
+}
